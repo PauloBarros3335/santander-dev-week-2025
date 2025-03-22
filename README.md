@@ -3,6 +3,8 @@ Java RESTful API criada para o Santander Dev Week
 
 ## Diagrama de Classes
 
+--- mermaid
+
 classDiagram
     class User {
         +String name
@@ -38,3 +40,5 @@ classDiagram
     User "1" *-- "0..*" Feature
     User "1" *-- "1" Card
     User "1" *-- "0..*" News
+
+    ---
